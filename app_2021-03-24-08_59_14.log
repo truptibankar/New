@@ -1,0 +1,10 @@
+2021-Mar-24 08:59:52 AM [main] INFO  com.automation.stepdefs.MyntraStepdefs - Browser invoked
+2021-Mar-24 09:02:10 AM [main] INFO  com.automation.stepdefs.MyntraStepdefs - Browser invoked
+2021-Mar-24 09:03:34 AM [main] INFO  com.automation.pom.SearchPagePOM - Entered product name: Blackberrys
+2021-Mar-24 09:03:34 AM [main] INFO  com.automation.pom.SearchPagePOM - Search box is displayed
+2021-Mar-24 09:04:12 AM [main] INFO  com.automation.pom.SearchPagePOM - Page title matched: Buy Blackberrys Clothing at Indias Best Fashion Store | Myntra
+2021-Mar-24 09:04:27 AM [main] INFO  com.automation.stepdefs.MyntraStepdefs - Browser invoked
+2021-Mar-24 09:05:46 AM [main] INFO  com.automation.pom.SearchPagePOM - Entered product name: Blackberrys
+2021-Mar-24 09:05:46 AM [main] INFO  com.automation.pom.SearchPagePOM - Entered product name: Blackberrys
+2021-Mar-24 09:06:44 AM [main] INFO  com.automation.stepdefs.MyntraStepdefs - Browser invoked
+2021-Mar-24 09:09:39 AM [main] INFO  com.automation.pom.SearchPagePOM - Entered product name: Blackberrys

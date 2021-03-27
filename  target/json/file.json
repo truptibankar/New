@@ -1,0 +1,146 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-25T03:14:00.474Z",
+        "before": [
+          {
+            "result": {
+              "duration": 56927000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdefs.MyntraStepdefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User is able to filter the result based on prices",
+        "description": "",
+        "id": "product-search-related;user-is-able-to-filter-the-result-based-on-prices",
+        "after": [
+          {
+            "result": {
+              "duration": 7539000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdefs.MyntraStepdefs.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85597000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user navigates to the application url",
+            "match": {
+              "location": "com.automation.stepdefs.MyntraStepdefs.user_navigates_to_the_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4069000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user entered \"Blackberrys\" brand name in search text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blackberrys\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.automation.stepdefs.MyntraStepdefs.user_entered_brand_name_in_search_text_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@class\u003d\u0027price-input\u0027]\"}\n  (Session info: chrome\u003d89.0.4389.90)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-NCVL8SDA\u0027, ip: \u0027169.254.113.220\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_261\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:52769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f0df4dd27dde43e7c591752490d104c4\n*** Element info: {Using\u003dxpath, value\u003d//input[@class\u003d\u0027price-input\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.automation.pom.SearchPagePOM.FilterProductAsPerPriceRange(SearchPagePOM.java:64)\r\n\tat com.automation.stepdefs.MyntraStepdefs.user_enter_minimumand_maximum_price_range_as_mentioned_below_table(MyntraStepdefs.java:110)\r\n\tat ✽.user enter minimum and maximum price range as mentioned below table(classpath:Feature/featurefile2.feature:24)\r\n",
+              "duration": 20559000000,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "user enter minimum and maximum price range as mentioned below table",
+            "match": {
+              "location": "com.automation.stepdefs.MyntraStepdefs.user_enter_minimumand_maximum_price_range_as_mentioned_below_table(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MIN_PRICE",
+                  "MAX_PRICE"
+                ]
+              },
+              {
+                "cells": [
+                  "499",
+                  "4373"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "search result get filter as below table",
+            "match": {
+              "location": "com.automation.stepdefs.MyntraStepdefs.search_result_get_filter_as_below_table(int,int)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "MIN_PRICE",
+                  "MAX_PRICE"
+                ]
+              },
+              {
+                "cells": [
+                  "499",
+                  "4373"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@search3"
+          }
+        ]
+      }
+    ],
+    "name": "Product search related",
+    "description": "",
+    "id": "product-search-related",
+    "keyword": "Feature",
+    "uri": "classpath:Feature/featurefile2.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
